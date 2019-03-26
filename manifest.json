@@ -1,0 +1,59 @@
+  {
+    "name": "myExtention",
+    "version": "2.0",
+    "description": "no description",
+
+
+    "permissions": [
+    	"tabs", 
+    	"activeTab", 
+    	"declarativeContent",
+    	"storage",
+    	"*://*.youtube.com/*", 
+    	"http://127.0.0.1:5000/*",
+    	"http://localhost/*",
+    	"http://video.google.com/*",
+    	"http://api.meaningcloud.com/*"
+    ],
+
+	// "content_security_policy":"script-src 'self' https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js; object-src 'self'",
+
+    // "options_page": "options.html",
+
+    "background": 
+    {
+      "scripts": ["background.js", "popup.js"],
+      "persistent": false
+    },
+
+    "content_scripts": [
+    {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["background.js", "popup.js"]
+    }
+	],
+
+ 
+    "page_action": 
+    {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/logo16.png",
+        "32": "images/logo32.png",
+        "48": "images/logo48.png",
+        "128": "images/logo128.png"
+      }
+    },
+
+
+    "icons": {
+      "16": "images/logo16.png",
+      "32": "images/logo32.png",
+      "48": "images/logo48.png",
+      "128": "images/logo128.png"
+    },
+
+    "manifest_version": 2
+
+  }
+
