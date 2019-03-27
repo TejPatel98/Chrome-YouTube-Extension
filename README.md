@@ -6,7 +6,8 @@ Worked on it During CatHacks Hackathon 2018.
 
 [Devpost Link][https://devpost.com/software/youtubeextension]
 
-Worked on it along with:
+I worked, on this project, along with the following:
+
 - Karthik Nayak
 - Sulav Khadka
 - Josh
