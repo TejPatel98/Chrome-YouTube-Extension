@@ -1,4 +1,6 @@
-# YouTubeExtention
+# Chrome YouTube Extention 
+
+We named our project __Smart Seek__
 
 ![](https://github.com/TejPatel98/Youtube-Extension/blob/master/logo128.png)
 
