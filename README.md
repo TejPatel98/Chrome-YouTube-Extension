@@ -4,7 +4,7 @@ Helps the user by finding the keyworkds from the video. And if wanted by the use
 
 Worked on it During CatHacks Hackathon 2018. 
 
-[Devpost Link](https://devpost.com/software/youtubeextension)
+[Link to Devpost](https://devpost.com/software/youtubeextension)
 
 I worked, on this project, along with the following:
 
